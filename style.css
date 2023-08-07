@@ -71,6 +71,8 @@ padding: 5px 10px;
 #head-img {
 width: 45%;
 margin-left: auto;
+border: none;
+border-radius: 0;
 }
 
 .box {
