@@ -62,10 +62,11 @@ color: #E5E7EB;
 }
 
 button {
-color: white;
-background-color: blue;
+color: #F9FAF8;
+background-color: #3882F6;
 border-radius: 10px;
 padding: 5px 10px;
+font-weight: bold;
 }
 
 #head-img {
@@ -136,4 +137,46 @@ color: black;
 margin-top: 0;
 width: 60%;
 
+}
+
+.empty-box {
+height: 300px;
+display: flex;
+}
+
+.action {
+background-color: #3882F6;
+display: flex;
+justify-content: space-between;
+width: 60%;
+height: 100px;
+padding: 10px 80px;
+margin: auto;
+}
+
+.action-box {
+align-self: center;
+}
+
+.call {
+color: #F9FAF8;
+font-size: 24px;
+margin: 0;
+}
+
+.direction {
+color: #E5E7EB;
+margin: 0;
+}
+
+
+.action button {
+border: 1px solid #F9FAF8;
+height: 30px;
+width: 80px;
+font-weight: normal;
+}
+
+.action a {
+align-self: center;
 }
