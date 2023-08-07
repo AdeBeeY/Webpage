@@ -180,3 +180,12 @@ font-weight: normal;
 .action a {
 align-self: center;
 }
+
+footer {
+background-color: #1F2937;
+height: 50px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
